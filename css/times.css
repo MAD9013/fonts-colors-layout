@@ -63,6 +63,8 @@ p {
 }
 
 .mainnav {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     height: 50px;
     background: #000000;
@@ -70,20 +72,16 @@ p {
     position: sticky;
     top: 0px;
     border-top: 1px solid #fff;
-    margin-right: 0;
+    
 }
 
 .mainnav a {
     font-family: lato;
-    display: inline-block;
-    float: left;
+    
     text-decoration: none;
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0;
-    margin-right: 0;
-    padding: 0 100px;
     line-height: 50px;
    
 }
@@ -110,12 +108,14 @@ p {
 
 .content {
     margin: 50px;
+ 
 }
 
 .content .story {}
 
 .story.lead-story:hover {
     color: #FA8072;
+    font-
 }
 
 h1.story-title {
